@@ -6,4 +6,8 @@ ERROR demo.py:13 error msg
 WARNING demo.py:14 warn msg
 INFO demo.py:15 info msg
 DEBUG demo.py:16 debug msg
-INFO _internal.py:122 127.0.0.1 - - [29/Aug/2019 11:26:15] "GET /api/v1.0/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Aug/2019 16:39:09] "GET /api/v1.0/index HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/manage.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421

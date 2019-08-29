@@ -10,7 +10,7 @@ app = Flask(__name__)
 class Config(object):
     """应用程序配置类"""
 
-    # logging等级
+    # logging等级,
     LOGGIONG_LEVEL = logging.DEBUG
 
     # 配置secret key,可以任意指定,但是一般正规生成.简单生成方法，ipthon 中 base64.b64encode(os.urandom(48))
@@ -41,11 +41,11 @@ class Config(object):
 
 class DevelopmentConfig(Config):
     """开发模式的配置信息"""
-    # 开启调试模式
+    # 开启调试模式,会强制覆盖掉日志的等级设置,会全部的四个等级信息都会输出,
+    # 无论logging.basicConfig(level=logging.DEBUG)设置为DEBUG,INFO,WARN,ERROR
     DEBUG = True
     # 环境默认是production的,更改为development,直接终端运行命令: export FLASK_ENV=development
     pass
-
 
 
 class ProducrionConfig(Config):

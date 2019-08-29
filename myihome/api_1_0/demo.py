@@ -2,7 +2,7 @@
 # -*-encoding:UTF-8-*-
 
 from . import api
-from myihome import db
+from myihome import db, models
 import logging
 from flask import current_app  # flask 封装的全局应用对象:当前的app
 
