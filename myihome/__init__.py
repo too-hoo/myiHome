@@ -10,6 +10,7 @@ from config import config_map
 from flask_sqlalchemy import SQLAlchemy
 from flask_session import Session  # 注意这是大写的,是一个类
 from flask_wtf import CSRFProtect  # 虽然是前后端分离但是会使用到表单中的csrf防护
+from myihome.utils.commons import ReConverter
 
 
 import redis
@@ -59,9 +60,16 @@ def create_app(config_name):
     # 但是在flask中没有中间件,但是有钩子@app.before_request防护
     CSRFProtect(app)
 
+    # 为flask添加自定义的转换器,主要把这个转换器注册给全局的APP即可,蓝图最后被加载
+    app.url_map.converters['re'] = ReConverter
+
     # 推迟导入,解决循环导包冲突问题, 用到了才导入
     from myihome import api_1_0  # 使用绝对目录的方式导入蓝图
     # 注册蓝图
     app.register_blueprint(api_1_0.api, url_prefix="/api/v1.0")
+
+    # 注册提供静态文件的蓝图
+    from myihome import web_html
+    app.register_blueprint(web_html.html)
 
     return app

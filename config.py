@@ -10,8 +10,8 @@ app = Flask(__name__)
 class Config(object):
     """应用程序配置类"""
 
-    # logging等级,
-    LOGGIONG_LEVEL = logging.DEBUG
+    # logging等级
+    # LOGGIONG_LEVEL = logging.DEBUG, 想要按照等级打印出日志这个先注释
 
     # 配置secret key,可以任意指定,但是一般正规生成.简单生成方法，ipthon 中 base64.b64encode(os.urandom(48))
     SECRET_KEY = 'ix4En7l1Hau10aPq8kv8tuzcVl1s2Zo6eA+5+R+CXor8G3Jo0IJvcj001jz3XuXl'
@@ -31,7 +31,7 @@ class Config(object):
     # 用到的时候直接去搜flask-session的配置即可
     # 配置session数据存储到redis数据库
     SESSION_TYPE = 'redis'
-    # 指定存储session数据的redis的位置
+    # 指定存储session数据的redis的位置,session设置保存在1号数据库
     SESSION_REDIS = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT, db=REDIS_DB)
     # 开启session数据的签名,意思是让session数据不是以明文的形式存储
     SESSION_USE_SIGNER = True
