@@ -3,6 +3,7 @@ function getCookie(name) {
     return r ? r[1] : undefined;
 }
 
+// 前端产生uuid的方法
 function generateUUID() {
     var d = new Date().getTime();
     if(window.performance && typeof window.performance.now === "function"){
@@ -15,15 +16,18 @@ function generateUUID() {
     });
     return uuid;
 }
-var uuid = "";
-var last_uuid='';
+// 保存图片验证码编号(使用uuid原因是不易重复,使用时间戳可能会冲突重复)
+var imageCodeId = ""
+
 // 生成一个图片验证码的编号，并设置页面中图片验证码img标签的src属性
 function generateImageCode() {
-    //向后端发送请求：/imageCode?uuid=uuid&last_uuid=last_uuid
-    uuid=generateUUID();  //生成UUID
-    var url='/api/1.0/imageCode?uuid=' + uuid+ '&last_uuid=' + last_uuid;   //拼接请求地址
+    // 形成图片验证码的后端地址,设置到页面中,让浏览器请求验证码图片
+    //1.生成图片验证码编号(UUID)
+    imageCodeId =generateUUID();
+    // 设置图片的url
+    var url='/api/v1.0/image_codes/' + imageCodeId;   //拼接请求地址
+    // 使用>选择div下面的img元素,中间使用空格也是可以.image-code img
     $('.image-code>img').attr('src',url);  //设置img的src属性
-    last_uuid = uuid   //设置上一个UUID
 }
 
 function sendSMSCode() {
