@@ -28,6 +28,7 @@ function generateImageCode() {
     var url='/api/v1.0/image_codes/' + imageCodeId;   //拼接请求地址
     // 使用>选择div下面的img元素,中间使用空格也是可以.image-code img
     $('.image-code>img').attr('src',url);  //设置img的src属性
+    $("#imagecode").val(""); // 刷新验证码时候清空输入框$("#name").val("");
 }
 
 function sendSMSCode() {
@@ -49,40 +50,38 @@ function sendSMSCode() {
     }
 
     // TODO: 通过ajax方式向后端接口发送请求，让后端发送短信验证码
-    var phone_num=$('#mobile').val(),
-        image_code=$('#imagecode').val(),
-        csrf_token=getCookie('csrf_token');
+    var phone_num=$('#mobile').val();
+    // 构造向后端请求的参数
     var params={
-        'uuid':uuid,
-        'phone_num':phone_num,
-        'image_code':image_code
+        'image_code_id':imageCodeId, //图片验证码的编号,(全局变量)
+        'image_code':imageCode // 图片验证码的值
     };
-    $.ajax({
-        url:'/api/1.0/smsCode',
-        type:'post',
-        data:JSON.stringify(params),
-        contentType:'application/json',
-        headers:{'X-CSRFToken':csrf_token},
-        success:function (res) {
-            if (res.re_code == '0'){
-                $('#phonecode').attr('placeholder','验证码发送成功')
-                // 验证码发送成功，倒计时60秒
-                var time=60;
-                var timer=setInterval(function () {
-                    $('.phonecode-a').html(time);
-                    time-=1;
-                    if (time<0){
-                    clearInterval(timer);
-                    $('.phonecode-a').html('获取验证码');
-                    $('.phonecode-a').attr('onclick','sendSMSCode();')
-                    }
-                },1000)
-            }else {
-                alert(res.msg);
-                $('.phonecode-a').attr('onclick','sendSMSCode();')
+    // 向后端发送请求
+    $.get("/api/v1.0/sms_codes/" + phone_num, params, function (resp) {
+        // resp是后端返回的响应值,因为后端返回的是json字符串,
+        // 所以ajax帮助我们把这个json字符串转换成为js对象,resp就是转换后的对象
+        if (resp.errno == "0"){
+            var $time = $(".phonecode-a"); //选取对应的元素,使用$time存放
+            var duration  = 60;
+            // 表示发送成功
+            var timer = setInterval(function () {
+                $time.html(duration + "秒");
+                if (duration === 1){
+                    clearInterval(timer)
+                    $time.html('获取验证码');
+                    $(".phonecode-a").attr("onclick", "sendSMSCode();");
+                }
+                duration = duration - 1;
+            }, 1000, 60)
+        } else {
+            $("#image-code-err span").html(resp.errmsg); // 下面显示提示信息
+            $("#image-code-err").show();
+            if ("4001" == resp.errno || "4002" == resp.errno) {
+                    generateImageCode();
             }
+            $(".phonecode-a").attr("onclick", "sendSMSCode();");
         }
-    })
+    },'json');
 }
 
 $(document).ready(function() {
@@ -132,7 +131,7 @@ $(document).ready(function() {
             'phonecode':phonecode,
             'password':password
         };
-        // 提交表单
+        提交表单
         $.ajax({
             url:'/api/1.0/users',
             type:'post',

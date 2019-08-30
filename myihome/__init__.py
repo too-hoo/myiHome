@@ -50,8 +50,8 @@ def create_app(config_name):
 
     # 初始化redis工具, 根据生产或者开发环境,选择好之后,在使用global 将redis_store更新,外面就可以使用.
     global redis_store
-    # 不用直接操作Config这个类,而是根据需要导入的config_class类中就可以获取到redis链接参数
-    redis_store = redis.StrictRedis(host=config_class.REDIS_HOST, port=config_class.REDIS_PORT)
+    # 不用直接操作Config这个类,而是根据需要导入的config_class类中就可以获取到redis链接参数,decode_responses=True为了在python3中返回str
+    redis_store = redis.StrictRedis(host=config_class.REDIS_HOST, port=config_class.REDIS_PORT,decode_responses=True)
 
     # 利用flask-session,将session数据保存到redis中(直接将app传递给类Session,里面会修改session机制,达到更改的目的)
     Session(app)

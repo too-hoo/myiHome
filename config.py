@@ -26,7 +26,7 @@ class Config(object):
     # 配置Redis数据库
     REDIS_HOST = '127.0.0.1'
     REDIS_PORT = 6379
-    REDIS_DB = 1
+    REDIS_DB = 0
 
     # 用到的时候直接去搜flask-session的配置即可
     # 配置session数据存储到redis数据库
