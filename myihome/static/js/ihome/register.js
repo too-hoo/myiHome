@@ -1,5 +1,10 @@
+// 读取cookie的方法,通过正则表达式拿到的match类似python, \转义, \b 表示单词的边界, 接着根据传入的name拼接,([^;]*)表示一个组,
+// [^;]表示结尾不是分号,一个或者多个都可以,最后以\b表示边界结尾,
+// "csrf_token=IjBiYTQzZDdjY2VkNmZiMmIwZDEzYTdjMzJhZTcyNWNkMDAyOGMwZmUi.XWniag.GSnm_bxR7TKAwjpChQz7-MuCa7k"
+//  最后返回的是一个列表
 function getCookie(name) {
     var r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
+    // 三元表达式,真:返回列表第1号元素r[1](1号是值,0号是键), 假:undefined(没定义没见过的意思),相当于None
     return r ? r[1] : undefined;
 }
 
@@ -74,6 +79,7 @@ function sendSMSCode() {
                 duration = duration - 1;
             }, 1000, 60)
         } else {
+            alert(resp.errmsg)
             $("#image-code-err span").html(resp.errmsg); // 下面显示提示信息
             $("#image-code-err").show();
             if ("4001" == resp.errno || "4002" == resp.errno) {
@@ -86,6 +92,7 @@ function sendSMSCode() {
 
 $(document).ready(function() {
     generateImageCode();  // 生成一个图片验证码的编号，并设置页面中图片验证码img标签的src属性
+    // 如果光标在输入框里面的话错误信息会隐藏
     $("#mobile").focus(function(){
         $("#mobile-err").hide();
     });
@@ -104,47 +111,63 @@ $(document).ready(function() {
     });
 
     // TODO: 注册的提交(判断参数是否为空)
+    // 为表单的提交补充自定义的函数行为(提交事件e)(浏览器提交的格式是Form的键值对,但是后端接收的是json格式的数据,所以要禁止)
     $('.form-register').submit(function (event) {
-        // 阻止自己默认的提交表单事件
+        // 阻止浏览器自己默认的提交表单事件,其不会默认自己发送
         event.preventDefault();
-        // 获取后端需要的数据，电话号，密码，短信验证码
+        // 获取后端需要的数据，电话号，短信验证码，密码
         var phone_num=$('#mobile').val(),
             phonecode=$('#phonecode').val(),
             password=$('#password').val(),
+            password2=$('#password2').val(),
             regix=/^0\d{2,3}\d{7,8}$|^1[358]\d{9}$|^147\d{8}$/;
-        // 判断是否为空,校验
+        // 判断是否为空,并校验
         if(!regix.exec(phone_num)){
-            $('#mobile-err span').text('手机号错误');
-            $('#mobile-err').show()
+            $('#mobile-err span').text('手机号错误'); //.html('手机号错误'); 也行
+            $('#mobile-err').show();
+            // return;
         }
         if(!phonecode) {
             $('#phone-code-err span').text('手机验证码不能为空！');
             $('#phone-code-err').show();
+            // return;
         }
         if(!password){
             $('#password-err span').text('密码不能为空!');
-            $('#password-err').show()
+            $('#password-err').show();
+            // return;
+        }
+        if(password != password2){
+            $('#password-err span').text('两次密码不一致!');
+            $('#password-err').show();
+            // return;
         }
         //组织参数
         var params={
-            'phone_num':phone_num,
-            'phonecode':phonecode,
-            'password':password
+            'phone_num':phone_num,  //电话号码
+            'sms_code':phonecode,  //短信验证码
+            'password':password,     //密码1
+            'password2':password2     //密码2
         };
-        提交表单
+        //提交表单
         $.ajax({
-            url:'/api/1.0/users',
+            url:'/api/v1.0/users',
             type:'post',
-            data:JSON.stringify(params),
+            data:JSON.stringify(params), //将参数params转化成为json数据
             contentType:'application/json',
-            headers:{'X-CSRFToken':getCookie('csrf_token')},
-            success:function(response){
-                if(response.re_code=='0'){
+            // 通过request请求体往外拿数据的两种方式:(data模式包括json,xml等)request.data和(form模式)request.form.get("csrf_token")
+            // 这里请求体的是json格式不是表单,如果请求体的数据不是表单格式,将csrf_token的值可以放到请求头中:X-CSRFToken,
+            headers:{ // 由浏览器的同源策略,这里是可以操作cookie的, 后端会识别X-CSRFToken关键字
+                'X-CSRFToken':getCookie('csrf_token')
+            }, // 请求头,将csrf_token值放到请求头中, 方便后端csrf进行验证
+            dataType:"json",
+            success:function(resp){
+                if(resp.errno=='0'){
                     // 成功跳转到首页
-                    alert(response.msg);
-                    location.href='/'
+                    alert(resp.errmsg);
+                    location.href='/'   // 注册成功之后跳转到主页
                 }else {
-                    alert(response.msg)
+                    alert(resp.errmsg)
                 }
             }
         });

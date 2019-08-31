@@ -4,7 +4,7 @@
 from datetime import datetime
 from . import db
 from . import constants
-# 导入产生密码hash函数和检查密码的hash函数
+# 导入对密码加密的hash函数和检查密码的hash函数
 from werkzeug.security import generate_password_hash, check_password_hash
 
 
@@ -31,14 +31,26 @@ class User(BaseModel, db.Model):
     houses = db.relationship('House', backref='user', lazy='dynamic')  # 用户发布的房屋, 使用懒加载模式为动态加载
     orders = db.relationship('Order', backref='user', lazy='dynamic')  # 用户下的订单
 
+    # @property是将函数password_hash变成一个属性来存在的了,属性名字就是函数的名字
     @property
     def password_hash(self):
         """获取password属性的时候被调用"""
-        raise AttributeError(u'不能访问该属性')
+        # print(user.password)  # 读取属性的时候会被调用
+        # 函数的返回值会作为属性值
+        # 没有返回值,读取这个属性没有任何意义(因为该属性已经加密)
+        # 通过抛出异常提示
+        raise AttributeError(u'这个属性只能设置,不能读取访问该属性')
 
+    # 对属性进行设置操作,通过构建出来的属性名.setter装饰器,添加一个设置行为
+    # 使用这个装饰器,对应设置属性操作
     @password_hash.setter
     def password_hash(self, value):
-        """ 设置password属性时被调用, 设置密码加密 """
+        """
+        对密码进行加密, 设置password属性时被调用, 设置密码加密
+        设置属性 user.passord = "xxxxxx"
+        :param value: 设置属性时的数据 value就是原始传入的xxxxxx明文密码
+        :return:
+        """
         self.password = generate_password_hash(value)
 
     def check_password(self, password):
