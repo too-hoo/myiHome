@@ -7,4 +7,4 @@ from flask import Blueprint
 api = Blueprint("api_1_0", __name__)
 
 # 导入蓝图的视图,一定要记得注册, 初始化之后才知道有,否则别人不知道,请求的参数是405!
-from . import demo, verify_code, passport
+from . import demo, verify_code, passport, profile

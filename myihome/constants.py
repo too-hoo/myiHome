@@ -17,7 +17,7 @@ LOGIN_ERROR_MAX_TIMES = 5
 LOGIN_ERROR_FORBID_TIME = 600
 
 # 七牛空间域名
-QINIU_DOMIN_PREFIX = "http://oyucyko3w.bkt.clouddn.com/"
+QINIU_DOMIN_PREFIX = "http://px3jg1aut.bkt.clouddn.com/"
 
 # 城区信息redis缓存时间，单位：秒
 AREA_INFO_REDIS_EXPIRES = 7200

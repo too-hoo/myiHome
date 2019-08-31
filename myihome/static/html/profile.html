@@ -29,6 +29,11 @@
                     <div class="menu-content">
                         <img id="user-avatar" src="">
                         <div class="menu-text">
+                            <!--enctype="multipart/form-data" 说明这个是一个多媒体表单,
+                            accept="image/*"表示可接受的文件
+                            name="avatar" :这个必须要与后端的获取的参数名字一样
+                            需要自己写一个回调函数来处理相应的数据
+                            -->
                             <form id="form-avatar" action="/api/v1.0/avatar" enctype="multipart/form-data">
                                 选择头像：<input type="file" accept="image/*" name="avatar">
                                 <!--<input type="hidden" id="avatar_xsrf" name="_xsrf" value="">-->
@@ -64,6 +69,7 @@
     </div>
     
     <script src="/static/js/jquery.min.js"></script>
+    <!--使用表单插件进行对后台数据的请求, 我们可以使用ajax自定义操作而不是浏览器-->
     <script src="/static/js/jquery.form.min.js"></script>
     <script src="/static/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>

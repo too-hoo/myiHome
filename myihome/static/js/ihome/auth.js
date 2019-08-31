@@ -14,8 +14,8 @@ function getCookie(name) {
 
 $(document).ready(function(){
     // TODO: 查询用户的实名认证信息
-    $.get('/api/1.0/users/auth',function (res) {
-        if(res.re_code=='0'){
+    $.get('/api/v1.0/users/auth',function (res) {
+        if(res.errno=='0'){
             // 认证只能一次，
             $('#real-name').val(res.user_auth.real_name);
             $('#id-card').val(res.user_auth.id_card);
@@ -25,44 +25,47 @@ $(document).ready(function(){
                 $('#id-card').attr('disabled','disabled');
                 $('.btn-success').hide();
             }
-        }else if(res.re_code=='4101'){
+        }else if(res.errno=='4101'){
             location.href='/'
         }else {
-            alert(res.msg)
+            alert(res.errmsg)
         }
     });
 
     // TODO: 管理实名信息表单的提交行为
     $('#form-auth').submit(function (event) {
          $('.error-msg').hide();
+         // 阻止浏览器的默认提交
         event.preventDefault();
+        // 获取方框中的值
         var real_name=$('#real-name').val(),
             id_card=$('#id-card').val();
         var params={
             'real_name':real_name,
             'id_card':id_card
         };
+        // 信息填写不完整
         if(!real_name || !id_card){
             $('.error-msg').show();
             return;
         }
         $.ajax({
-                url:'/api/1.0/users/auth',
+                url:'/api/v1.0/users/auth',
                 type:'post',
                 data:JSON.stringify(params),
                 contentType:'application/json',
                 headers:{'X-CSRFToken':getCookie('csrf_token')},
                 success:function(response){
-                    if(response.re_code=='0'){
-                        // 成功
+                    if(response.errno=='0'){
+                        // 成功, 信息不能修改,保存按钮隐藏
                         showSuccessMsg();
                         $('#real-name').attr('disabled','disabled');
                         $('#id-card').attr('disabled','disabled');
                         $('.btn-success').hide();
-                    }else if(response.re_code=='4101'){
+                    }else if(response.errno=='4101'){
                         location.href='/'
                     }else {
-                        alert(response.msg)
+                        alert(response.errmsg)
                     }
                 }
             });
