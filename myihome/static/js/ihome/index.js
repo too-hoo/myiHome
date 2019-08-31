@@ -59,23 +59,27 @@ function goToSearchPage(th) {
 
 $(document).ready(function(){
     //  检查用户的登录状态
-    $.get('/api/1.0/sessions',function (res) {
-        if (res.re_code=='0'){
+    // 使用的是get方法,直接使用简写的方式
+    $.get('/api/v1.0/sessions',function (res) {
+        if (res.errno=='0'){
             // 响应成功
             if (res.user.user_id && res.user.name){
                 //user_id和name都有数据，已登录
                 $('.register-login').hide();
                 $('.user-info').show();
-                $('.user-info').find('a').text(res.user.name)
+                $('.user-info').find('a').text(res.user.name) //寻找里面的a标签并设置里面的文本信息
             }else {
                 //未登录
                 $('.register-login').show();
                 $('.user-info').hide();
             }
         }else {
-            alert(res.msg)
+            //未登录
+            $('.register-login').show();
+            $('.user-info').hide();
+            // alert(res.errmsg)
         }
-    });
+    }, "json"); // 后面的"json"可传可不传,对应完整的content-type:"json"
     //  获取幻灯片要展示的房屋基本信息
     $.get('/api/1.0/houses/index',function (res) {
         if(res.re_code=='0'){

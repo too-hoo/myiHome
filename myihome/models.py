@@ -53,8 +53,13 @@ class User(BaseModel, db.Model):
         """
         self.password = generate_password_hash(value)
 
+    # 可以通过User对象直接调用
     def check_password(self, password):
-        """ 校验密码是否正确 """
+        """
+         校验密码是否正确
+        :param password: 用户登录输入的原始密码
+        :return: 如果正确,返回true, 否则返回False
+        """
         return check_password_hash(self.password, password)
 
     def to_dict(self):

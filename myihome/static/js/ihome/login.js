@@ -26,21 +26,24 @@ $(document).ready(function() {
             return;
         }
         var params={
-            'mobile':mobile,
+            'phone_num':mobile,
             'password':passwd
         };
         $.ajax({
-                    url:'/api/1.0/sessions',
+                    url:'/api/v1.0/sessions',
                     type:'post',
                     data:JSON.stringify(params),
                     contentType:'application/json',
                     headers:{'X-CSRFToken':getCookie('csrf_token')},
                     success:function(response){
-                        if(response.re_code=='0'){
-                            // 登录成功
+                        if(response.errno=='0'){
+                            // 登录成功, 跳转到主页
                             location.href='/'
                         }else {
-                            alert(response.msg)
+                            // 其他错误信息,在页面中显示
+                            //alert(response.errmsg)
+                            $("#password-err span").html(response.errmsg);
+                            $("#password-err").show();
                         }
                     }
                 });

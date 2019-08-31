@@ -10,6 +10,12 @@ SMS_CODE_REDIS_EXPIRES = 300
 # 发送短信验证码的时间间隔60秒，单位：秒
 SEND_SMS_CODE_INTERVAL = 300
 
+# 登录错误的尝试次数
+LOGIN_ERROR_MAX_TIMES = 5
+
+# 登录错误的限制时间间隔10分钟,单位:秒
+LOGIN_ERROR_FORBID_TIME = 600
+
 # 七牛空间域名
 QINIU_DOMIN_PREFIX = "http://oyucyko3w.bkt.clouddn.com/"
 
