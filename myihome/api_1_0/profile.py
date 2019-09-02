@@ -64,12 +64,15 @@ def get_profile_info():
         return jsonify(errno=RET.DBERR, errmsg="查询数据库异常")
     else:
         if user is not None:
-            user_id = user.id
-            name = user.name
-            phone_num = user.phone_num
-            avatar_url = constants.QINIU_DOMIN_PREFIX + user.avatar_url
-            return jsonify(errno=RET.OK, errmsg="true",
-                           user={"user_id": user_id, "name": name, "avatar_url": avatar_url, "phone_num": phone_num})
+            # user_id = user.id
+            # name = user.name
+            # phone_num = user.phone_num
+            # avatar_url = constants.QINIU_DOMIN_PREFIX + user.avatar_url
+            # return jsonify(errno=RET.OK, errmsg="true",
+            #                user={"user_id": user_id, "name": name, "avatar_url": avatar_url, "phone_num": phone_num})
+
+            # Simplify, package data to dict
+            return jsonify(errno=RET.OK, errmsg="true",user=user.to_dict())
         else:
             return jsonify(errno=RET.NODATA, errmsg="用户信息不存在")
 
@@ -122,10 +125,13 @@ def user_auth():
         return jsonify(errno=RET.DBERR, errmsg="查询数据库异常")
     else:
         if user is not None:
-            real_name = user.real_name
-            id_card = user.id_card
-            return jsonify(errno=RET.OK, errmsg="true",
-                           user_auth={"real_name": real_name, "id_card": id_card})
+            # real_name = user.real_name
+            # id_card = user.id_card
+            # return jsonify(errno=RET.OK, errmsg="true",
+            #                user_auth={"real_name": real_name, "id_card": id_card})
+
+            # Simplify,
+            return jsonify(errno=RET.OK, errmsg="true", user_auth=user.to_auth_dict())
         else:
             return jsonify(errno=RET.NODATA, errmsg="用户信息不存在")
 
@@ -150,7 +156,7 @@ def user_realname_auth():
         return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
 
     try:
-        User.query.filter_by(id=user_id).update({"real_name": real_name, "id_card": id_card})
+        User.query.filter_by(id=user_id, real_name=None, id_card=None).update({"real_name": real_name, "id_card": id_card})
         db.session.commit()
     except Exception as e:
         db.session.rollback()

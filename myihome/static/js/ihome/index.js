@@ -81,28 +81,28 @@ $(document).ready(function(){
         }
     }, "json"); // 后面的"json"可传可不传,对应完整的content-type:"json"
     //  获取幻灯片要展示的房屋基本信息
-    $.get('/api/1.0/houses/index',function (res) {
-        if(res.re_code=='0'){
-            render_template=template('swiper-houses-tmpl',{'houses':res.data.houses});
+    $.get('/api/v1.0/houses/index',function (res) {
+        if(res.errno=='0'){
+            render_template=template('swiper-houses-tmpl',{'houses':res.data});
             $('.swiper-wrapper').html(render_template);
-        //  数据设置完毕后,需要设置幻灯片对象，开启幻灯片滚动
-        var mySwiper = new Swiper ('.swiper-container', {
-            loop: true,
-            autoplay: 2000,
-            autoplayDisableOnInteraction: false,
-            pagination: '.swiper-pagination',
-            paginationClickable: true
-    });
+            //  数据设置完毕后,需要设置幻灯片对象Swiper，开启幻灯片滚动
+            var mySwiper = new Swiper ('.swiper-container', {
+                loop: true,
+                autoplay: 2000,
+                autoplayDisableOnInteraction: false,
+                pagination: '.swiper-pagination',
+                paginationClickable: true
+            });
         }else {
-            alert(res.msg)
+            alert(res.errmsg)
         }
     });
 
     // 获取城区信息,获取完毕之后需要设置城区按钮点击之后相关操作
-    $.get('/api/1.0/areas',function (res) {
-        if(res.re_code=='0'){
+    $.get('/api/v1.0/areas',function (res) {
+        if(res.errno=='0'){
             // 初始化模板
-            render_template=template('area-list-tmpl',{areas:res.areas});
+            render_template=template('area-list-tmpl',{areas:res.data});
             //将模板设置到指定的区域
             $('.area-list').html(render_template);
             $('.area-list a').click(function () {
@@ -115,7 +115,7 @@ $(document).ready(function(){
                 $('#area-modal').modal('hide');
             });
         }else {
-            alert(res.msg)
+            alert(res.errmsg)
         }
     });
 

@@ -93,7 +93,7 @@ class Area(BaseModel, db.Model):
     houses = db.relationship('House', backref='area')  # 区域的房屋
 
     def to_dict(self):
-        """将对象转换为字典数据"""
+        """将对象转换为字典数据,通常将对象的一个方法放到对象models里面"""
         return {
             'aid': self.id,
             'aname': self.name

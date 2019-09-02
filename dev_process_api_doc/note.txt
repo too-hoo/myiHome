@@ -1,10 +1,33 @@
-1.需求分析
-2.编写代码
-3.编写单元测试
-4.自测
-5.编写接口文档
-6.提交代码
+1. dev process
+    1.需求分析
+    2.编写代码
+    3.编写单元测试
+    4.自测
+    5.编写接口文档
+    6.提交代码
 
 
 短信发送:第三方服务
 容联.云通讯:www.yuntongxun.com
+
+2.redis doc
+
+3.picture service
+
+1) save to local, enrich the disk(the issue of full_disk)
+2) issue of backups
+3) issue of 多机存储(Multi_computer Storage)
+4) user_A   pic_A
+   user_B   pic_B
+   pic_A and pic_B are the same picture, it will be save twice, waste the storage
+
+5) user_A   a.jpg
+   user_B   a.jpg
+   The same name picture, but not the same one. The last upload will cover the previous upload.
+
+Solutions of the file storage
+1) build you own file storage system  :FastDFS(DFS of taobao), HDFS (DFS of Hadoop)
+2)choose the third service   cloud storage of qiniu  www.qiniu.com
+
+4.frontend template of js : art-template
+https://aui.github.io/art-template/zh-cn/index.html

@@ -40,6 +40,7 @@
                             <label for="area-id">所在城区</label>
                             <select class="form-control" id="area-id" name="area_id">
                             </select>
+                            <!--difine the template, choose a place you like, it's good to define below the place you use it -->
                             <script id="areas-tmpl" type="text/html">
                                 {{each areas as area}}
                                 <option value="{{area.aid}}">{{area.aname}}</option>
@@ -266,12 +267,14 @@
                 <div class="error-msg text-center"><i class="fa fa-exclamation-circle"></i>请将全部信息填写完整后再提交</div>
             </form>
             <form id="form-house-image" action="/api/house/image" method="post" enctype="multipart/form-data">
+                <!--hidden field transmit the  house_id-->
                 <input type="hidden" name="house_id" id="house-id" value="">
                 <li>
                     <div class="house-title">
                         <h3>添加图片</h3>
                     </div>
                     <div class="house-content">
+                        <!--insert house picture here-->
                         <div class="house-image-cons">
                         </div>
                         <div class="form-group">
@@ -297,6 +300,7 @@
     
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/jquery.form.min.js"></script>
+    <!--import frontend template:art-template-->
     <script src="/static/js/template.js"></script>
     <script src="/static/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>

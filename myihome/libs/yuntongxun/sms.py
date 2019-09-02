@@ -63,10 +63,11 @@ class CCP(object):
         # smsMessageSid: 0ae37f75c9974b9a91d320ed078e1f45
         # dateCreated: 20190830115845
         # None
-        status_code = result.get('statusCode') # 不应该使用方括号,应该使用get()获取
+        status_code = result.get('statusCode')  # 不应该使用方括号,应该使用get()获取
         if status_code == '000000':
             return 0  # 000000表示发送成功
         return -1  # 发送失败, -1表示有问题
+
 
 # 测试
 if __name__ == '__main__':

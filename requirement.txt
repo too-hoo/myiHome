@@ -3,3 +3,4 @@ redis-3.3.8
 WTForms-2.2.1 flask-wtf-0.14.2 # 使用里面的CSRF的防护机制
 flask-migrate
 Pillow
+celery-4.3.0
