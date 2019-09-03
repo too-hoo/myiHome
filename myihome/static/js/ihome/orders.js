@@ -30,19 +30,19 @@ $(document).ready(function(){
     var queryData = decodeQuery();
     var role = queryData["role"];
     // 查询房客订单
-    $.get('/api/1.0/orders?role='+role,function (res) {
-        if(res.re_code=='0'){
-            render_template=template('orders-list-tmpl',{'orders':res.data.order_list});
+    $.get('/api/v1.0/user/orders?role='+role,function (res) {
+        if(res.errno=='0'){
+            render_template=template('orders-list-tmpl',{'orders':res.data.orders});
             $('.orders-list').html(render_template);
             //  查询成功之后需要设置评论的相关处理
             $(".order-comment").on("click", function(){
                 var orderId = $(this).parents("li").attr("order-id");
                 $(".modal-comment").attr("order-id", orderId);
             });
-        }else if(res.re_code=='4101'){
+        }else if(res.errno=='4101'){
             location.href='/login.html'
         }else {
-            alert(res.msg)
+            alert(res.errmsg)
         }
     });
 

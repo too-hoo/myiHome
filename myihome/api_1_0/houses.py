@@ -373,8 +373,8 @@ def get_house_list():
         if end_date:
             end_date = datetime.strptime(end_date, "%Y-%m-%d")  # strptime():convert str to time; strftime():convert time to str;
 
-        print("start_date", start_date)
-        print("end_date", end_date)
+        # print("start_date", start_date)
+        # print("end_date", end_date)
         if start_date and end_date:
             assert start_date <= end_date
     except Exception as e:
@@ -386,7 +386,6 @@ def get_house_list():
         try:
             area = Area.query.get(area_id)
         except Exception as e:
-            current_app.logger.error(e)
             return jsonify(errno=RET.PARAMERR, errmsg="area args error")
 
     # process page, default page = 1

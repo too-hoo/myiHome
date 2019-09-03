@@ -27,33 +27,40 @@ $(document).ready(function(){
     $('.modal').on('show.bs.modal', centerModals);      //当模态框出现的时候
     $(window).on('resize', centerModals);
     // 查询房东的订单
-        var queryData = decodeQuery();
+    var queryData = decodeQuery();
     var role = queryData["role"];
     // 查询房客订单
-    $.get('/api/1.0/orders?role='+role,function (res) {
-        if(res.re_code=='0'){
-            render_template=template('orders-list-tmpl',{'orders':res.data.order_list});
+    $.get('/api/v1.0/user/orders?role='+role,function (res) {
+        if(res.errno=='0'){
+            render_template=template('orders-list-tmpl',{'orders':res.data.orders});
             $('.orders-list').html(render_template);
         //  查询成功之后需要设置接单和拒单的处理
         $(".order-accept").on("click", function(){
             var orderId = $(this).parents("li").attr("order-id");
             $(".modal-accept").attr("order-id", orderId);
             $('.modal-accept').on('click',function () {
+                var params = {
+                    "action":"accept"
+                };
                 $.ajax({
-                            url:'/api/1.0/orders/status/'+orderId+'?action=accept',
+                            url:'/api/v1.0/orders/'+orderId+'/status',
                             type:'put',
+                            data:JSON.stringify(params),
+                            contentType:'application/json',
+                            dataType: "json",
                             headers:{'X-CSRFToken':getCookie('csrf_token')},
                             success:function(response){
-                                if(response.re_code=='0'){
+                                if(response.errno=='0'){
                                     // 成功，模态框隐藏，订单状态改为待支付
                                     $('.order-text').find('span').html('待支付');
+                                    // hide two button
                                     $('.orders-list li[order-id='+orderId+']').find('.order-operate').hide();
                                     $('.order-operate').hide();
                                     $('#accept-modal').modal('hide');
-                                }else if(response.re_code=='4101'){
+                                }else if(response.errno=='4101'){
                                     location.href='/login.html'
                                 }else {
-                                    alert(response.msg)
+                                    alert(response.errmsg)
                                 }
                             }
                         });
@@ -69,23 +76,29 @@ $(document).ready(function(){
                     alert('请填写拒单理由！');
                     return;
                 }
+                var params = {
+                    "action":"reject",
+                    "reason":reason
+                };
                 $.ajax({
-                            url:'/api/1.0/orders/status/'+orderId+'?action=reject',
+                            url:'/api/v1.0/orders/'+orderId+'/status',
                             type:'put',
-                            data:JSON.stringify({'reason':reason}),
+                            data:JSON.stringify(params),
+                            contentType:'application/json',
+                            dataType: "json",
                             contentType:'application/json',
                             headers:{'X-CSRFToken':getCookie('csrf_token')},
                             success:function(response){
-                                if(response.re_code=='0'){
+                                if(response.errno=='0'){
                                       // 成功，模态框隐藏，订单状态改为已拒单
                                     $('.orders-list li[order-id='+orderId+']').find('.order-text span').html('已拒单');
                                     $('.orders-list li[order-id='+orderId+']').find('.order-text ul').append('<li>拒单原因：'+reason+'</li>');
                                     $('.orders-list li[order-id='+orderId+']').find('.order-operate').hide();
                                     $('#reject-modal').modal('hide');
-                                }else if(response.re_code=='4101'){
+                                }else if(response.errno=='4101'){
                                     location.href='/login.html'
                                 }else {
-                                    alert(response.msg)
+                                    alert(response.errmsg)
                                 }
                             }
                         });

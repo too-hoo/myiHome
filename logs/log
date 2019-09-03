@@ -3573,3 +3573,764 @@ INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:28:36] "GET /api/v1.0/houses
 INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:29:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
 INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:29:17] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
 INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:30:15] "GET /api/v1.0/houses/search?aid=4&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/myihome/api_1_0/houses.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:26] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:26] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:26] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:26] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:28] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:28] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:28] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:28] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:30] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:35] "GET /orders.html?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:35] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:35] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:35] "GET /api/1.0/orders?role=own HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:37] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:39] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:39] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:39] "GET /api/1.0/orders?role=customer HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [02/Sep/2019 22:45:41] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/myihome/api_1_0/houses.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/myihome/api_1_0/houses.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:58:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:58:14] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:58:23] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:58:23] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:58:50] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:00] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:00] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:00] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:00] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:02] "GET /detail.html?id=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:03] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:03] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:03] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:04] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:04] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:19] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:20] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:22] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:23] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:23] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:23] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:23] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:24] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:24] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:24] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:34] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:35] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:35] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:35] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:35] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:38] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:38] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:42] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:42] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:42] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:42] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:42] "GET /api/1.0/sessions HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 09:59:43] "GET /api/1.0/houses/detail/1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:00:08] "GET /api/1.0/sessions HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:01] "GET /detail.html?id=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:01] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:01] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:01] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:01] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:01] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:03] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:03] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:03] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:08] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:08] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:08] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:09] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:09] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:11:09] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:12:22] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:12:32] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:09] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:10] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:10] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:10] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:10] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:17] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:40] "GET /booking.html?hid=1 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:40] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:41] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:15:41] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:17:59] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:32] "GET /detail.html?id=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:33] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:34] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:34] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:53] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:53] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:54] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:55] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:20:55] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:51] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:54:52] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:55:04] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:55:15] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:29] "GET /detail.html?id=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:30] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:37] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:37] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:37] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:37] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:37] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:37] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:56:48] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:58:37] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:58:40] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:58:40] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 10:58:52] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:17] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:18] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:18] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:02:31] "GET /api/v1.0/orders?{%22start_date%22:%222019-09-03%22,%22end_date%22:%222019-09-04%22,%22house_id%22:%221%22} HTTP/1.1" 404 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:10] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:11] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:11] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:11] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:11] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:11] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:11] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:05:17] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:15] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:16] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:16] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:16] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:16] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:06:16] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:07:44] "GET /booking.html?hid=1 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:07:45] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:07:45] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:07:46] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:10:16] "GET /booking.html?hid=1 HTTP/1.1" 304 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:05] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:06] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:06] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:08] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:14] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:14] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:14] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:14] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:14] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:14] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:14] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:14] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:14] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:15] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:15] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:15] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:15] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:15] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:15] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:15] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:15] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:11:39] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:27] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:27] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:27] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:28] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:30] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:31] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:31] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:18:40] "POST /api/v1.0/orders HTTP/1.1" 405 -
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/myihome/api_1_0/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/myihome/api_1_0/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:54] "GET /booking.html?hid=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:56] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:56] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:22:56] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:23:03] "POST /api/v1.0/orders HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:23:03] "GET /orders.html?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:23:04] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:23:04] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:23:04] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:23:05] "GET /api/1.0/orders?role=own HTTP/1.1" 404 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:41] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:41] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:41] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:41] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:42] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /orders.html?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:33:57] "GET /api/v1.0/orders?role=own HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:24] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:24] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:24] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:25] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:25] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:36] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:36] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:36] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:36] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:36] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:36] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:36] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:37] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:37] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:37] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:37] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:37] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:37] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:37] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:37] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:37] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:37] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:37:39] "GET /user/orders.html?role=own HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:34] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:35] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:36] "GET /orders.html?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:36] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:36] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:37] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:38:37] "GET /api/v1.0/orders?role=own HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:08] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:09] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:09] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:12] "GET /orders.html?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:13] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:13] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:13] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:13] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:49] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:49] "GET / HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:50] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:50] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:50] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:50] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:50] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:50] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:50] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:50] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:51] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:54] "GET /detail.html?id=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:54] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:54] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:55] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:57] "GET /api/v1.0/houses/detail/2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:39:57] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:40:01] "GET /booking.html?hid=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:40:01] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:40:01] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:40:01] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:40:01] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:40:02] "GET /api/v1.0/houses/detail/2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:40:13] "POST /api/v1.0/orders HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:40:13] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:41:32] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:02] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:02] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:02] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:02] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:02] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:04] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:04] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:04] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:12] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:13] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:13] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:13] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:13] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:16] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:22] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:26] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:30] "GET /lorders.html?role=customer HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:30] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:31] "GET /api/1.0/orders?role=customer HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:41] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:45] "GET /myhouse.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:45] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:45] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:45] "GET /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:45] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:48] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:56] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:56] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:57] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:57] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:42:57] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO csrf.py:251 The CSRF session token is missing.
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:43:07] "POST /api/v1.0/sessions HTTP/1.1" 400 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:43:18] "GET /login.html HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:43:19] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:43:27] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:43:28] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:43:28] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:43:28] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:43:28] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:43:30] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:43:34] "GET /api/1.0/orders?role=customer HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:46:39] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:46:47] "GET /api/1.0/orders?role=customer HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:46:55] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /orders.html?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:53] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:54] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:54] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:54] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:54] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:57] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:57] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:57] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:58] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:52:58] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:53:03] "GET /lorders.html?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:53:03] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:53:03] "GET /api/v1.0/orders?role=landlord HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:28] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:29] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:29] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:29] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:30] "GET /lorders.html?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:30] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:30] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:30] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:30] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:40] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:41] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:41] "GET / HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:41] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:41] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:41] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:41] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:41] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:42] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:42] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:42] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:42] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:43] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:43] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:43] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:52] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:52] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:52] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:52] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:53] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:55] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:55:58] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:56:42] "PUT /api/v1.0/orders/1/status?action=accept HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/myihome/api_1_0/orders.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:59:36] "GET /lorders.html?role=landlord HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:59:37] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:59:37] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 11:59:41] "PUT /api/v1.0/orders/1/status?action=accept HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:00:00] "PUT /api/v1.0/orders/1/status?action=accept HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/myihome/api_1_0/orders.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /lorders.html?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:00] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:01] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:02] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:02] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:02:05] "PUT /api/v1.0/orders/1/status?action=accept HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:16] "GET /lorders.html?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:16] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:16] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:16] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:16] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:16] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:16] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:16] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:17] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:17] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:17] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:17] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:17] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:17] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:17] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:17] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:18] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:08:32] "PUT /api/v1.0/orders/1/status HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /lorders.html?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:03] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:03] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:12] "PUT /api/v1.0/orders/1/status HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:31] "GET /lorders.html?role=landlord HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:31] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:12:32] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/myihome/api_1_0/orders.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:18:01] "PUT /api/v1.0/orders/2/status HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:15] "GET /my.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:15] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:15] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:15] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:15] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:18] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:18] "GET / HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:18] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:18] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:18] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:18] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:18] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:19] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:19] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:19] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:19] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:20] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:20] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:20] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:33] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:33] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:33] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:33] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:33] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:35] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:37] "GET /orders.html?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:37] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 12:19:37] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/myihome/api_1_0/orders.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421

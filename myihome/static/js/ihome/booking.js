@@ -26,7 +26,7 @@ function showErrorMsg() {
 
 $(document).ready(function(){
     // 判断用户是否登录
-    $.get('/api/1.0/sessions',function (res) {
+    $.get('/api/v1.0/sessions',function (res) {
         if(!res.user.user_id && !res.user.name){
             //未登录
             location.href='/login.html'
@@ -54,48 +54,55 @@ $(document).ready(function(){
             $(".order-amount>span").html(amount.toFixed(2) + "(共"+ days +"晚)");
         }
     });
+    // get params from URL
     var queryData = decodeQuery();
     var houseId = queryData["hid"];
 
     //  获取房屋的基本信息
-    $.get('/api/1.0/houses/detail/'+houseId,function (res) {
-        if(res.re_code=='0'){
+    $.get('/api/v1.0/houses/detail/'+houseId,function (res) {
+        if(res.errno=='0'){
             $('.house-info>img').attr('src',res.data.house.img_urls[0]);
             $('.house-text h3').text(res.data.house.title);
              $('.house-text span').text(parseFloat((res.data.house.price)/100).toFixed(2));
         }else {
-            alert(res.msg)
+            alert(res.errmsg)
         }
     });
     // 订单提交
     $('.submit-btn').on('click',function () {
-        var start_date=$('#start-date').val(),
-            end_date=$('#end-date').val();
-         if (!start_date || !end_date) {
-            alert('请输入时间');
-            return;
-        }
-        var params={
-            'start_date':start_date,
-            'end_date':end_date,
-            'house_id':houseId
-        };
-        $.ajax({
-                    url:'/api/1.0/orders',
-                    type:'post',
+        if($(".order-amount>span").html()){
+           $(this).prop("disabled", true);
+            var start_date=$('#start-date').val(),
+                end_date=$('#end-date').val();
+             if (!start_date || !end_date) {
+                alert('请输入时间');
+                return;
+            }
+            var params={
+                "house_id":houseId,
+                "start_date":start_date,
+                "end_date":end_date
+            };
+            $.ajax({
+                    url:"/api/v1.0/orders",
+                    type:"POST",
                     data:JSON.stringify(params),
                     contentType:'application/json',
+                    dataType: "json",
                     headers:{'X-CSRFToken':getCookie('csrf_token')},
                     success:function(response){
-                        if(response.re_code=='0'){
+                        if(response.errno=='0'){
                             // 成功
                             location.href='/orders.html?role=own'
-                        }else if(response.re_code=='4101'){
+                        }else if(response.errno=='4101'){
                             location.href='/login.html'
+                        }else if(response.errno=='4004'){
+                            showErrorMsg("房屋已被预定，请重新选择datetime!");
                         }else {
-                            alert(response.msg)
+                            alert(response.errmsg)
                         }
                     }
-                });
+            });
+        }
     });
 });
