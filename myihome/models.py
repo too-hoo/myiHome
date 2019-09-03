@@ -199,7 +199,7 @@ class House(BaseModel, db.Model):
         for order in orders:
             comment = {
                 "comment": order.comment,  # 评论的内容
-                "user_name": order.user.name if order.user.name != order.user.mobile else "匿名用户",  # 发表评论的用户
+                "user_name": order.user.name if order.user.name != order.user.phone_num else "匿名用户",  # 发表评论的用户
                 "ctime": order.update_time.strftime("%Y-%m-%d %H:%M:%S")  # 评价的时间
             }
             comments.append(comment)

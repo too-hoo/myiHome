@@ -35,8 +35,8 @@
                         </div>
                         {{ else if 'WAIT_PAYMENT'==order.status }}
                         <div class="fr order-operate">
-                            <button type="button" class="btn btn-success order-comment" data-toggle="modal" data-target="#comment-modal">去支付</button>
-                            <button type="button" class="btn btn-dangerous order-comment" data-toggle="modal" data-target="#comment-modal">取消订单</button>
+                            <button type="button" class="btn btn-success order-pay">去支付</button>
+                            <!--<button type="button" class="btn btn-dangerous order-cancel" data-toggle="modal" data-target="#comment-modal">取消订单</button>-->
                         </div>
                         {{/if}}
                     </div>

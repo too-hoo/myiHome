@@ -39,3 +39,6 @@ HOUSE_LIST_PAGE_CAPACITY = 2
 
 # 房屋列表页面Redis缓存时间，单位：秒
 HOUSE_LIST_REDIS_EXPIRES = 7200
+
+# alipay network gateway(alipay address domain name)
+ALIPAY_URL_PREFIX = "https://openapi.alipaydev.com/gateway.do?"

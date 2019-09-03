@@ -341,7 +341,7 @@ def get_house_detail(house_id):
         house_data = house.to_full_dict()
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DATAERR, errmsg="data error")
+        return jsonify(errno=RET.DATAERR, errmsg="data error 1")
 
     # save data to redis
     json_house = json.dumps(house_data)
