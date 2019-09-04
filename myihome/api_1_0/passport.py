@@ -175,5 +175,9 @@ def check_login():
 def logout():
     """登出"""
     # 清楚session数据
+    # wtf表单设置csrf_token的值时候是设置到session中的，与一般的框架设置到cookie中形式不同，
+    # 又因为引入flask-session扩展，将session设置到redis中，为了不保留csrf_token的值，先取出，再设置
+    csrf_token = session.get("csrf_token")
     session.clear()
+    session["csrf_token"] = csrf_token
     return jsonify(errno=RET.OK, errmsg="OK")

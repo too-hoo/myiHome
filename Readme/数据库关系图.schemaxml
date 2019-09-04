@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemadesigner version="6.5">
+<source>
+<database charset="utf8mb4" collation="utf8mb4_0900_ai_ci">myihome</database>
+</source>
+<canvas zoom="100">
+<tables>
+<table name="alembic_version" view="colnames">
+<left>39</left>
+<top>15</top>
+<width>133</width>
+<height>95</height>
+<sql_create_table>CREATE TABLE `alembic_version` (
+  `version_num` varchar(32) NOT NULL,
+  PRIMARY KEY (`version_num`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci</sql_create_table>
+</table>
+<table name="ih_area_info" view="colnames">
+<left>621</left>
+<top>165</top>
+<width>137</width>
+<height>135</height>
+<sql_create_table>CREATE TABLE `ih_area_info` (
+  `create_time` datetime DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(32) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci</sql_create_table>
+</table>
+<table name="ih_facility_info" view="colnames">
+<left>40</left>
+<top>114</top>
+<width>133</width>
+<height>146</height>
+<sql_create_table>CREATE TABLE `ih_facility_info` (
+  `create_time` datetime DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(32) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci</sql_create_table>
+</table>
+<table name="ih_house_facility" view="colnames">
+<left>240</left>
+<top>18</top>
+<width>100</width>
+<height>112</height>
+<sql_create_table>CREATE TABLE `ih_house_facility` (
+  `house_id` int(11) NOT NULL,
+  `facility_id` int(11) NOT NULL,
+  PRIMARY KEY (`house_id`,`facility_id`),
+  KEY `facility_id` (`facility_id`),
+  CONSTRAINT `ih_house_facility_ibfk_1` FOREIGN KEY (`facility_id`) REFERENCES `ih_facility_info` (`id`),
+  CONSTRAINT `ih_house_facility_ibfk_2` FOREIGN KEY (`house_id`) REFERENCES `ih_house_info` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci</sql_create_table>
+</table>
+<table name="ih_house_image" view="colnames">
+<left>622</left>
+<top>10</top>
+<width>136</width>
+<height>147</height>
+<sql_create_table>CREATE TABLE `ih_house_image` (
+  `create_time` datetime DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `house_id` int(11) NOT NULL,
+  `url` varchar(256) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `house_id` (`house_id`),
+  CONSTRAINT `ih_house_image_ibfk_1` FOREIGN KEY (`house_id`) REFERENCES `ih_house_info` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci</sql_create_table>
+</table>
+<table name="ih_house_info" view="colnames">
+<left>387</left>
+<top>10</top>
+<width>141</width>
+<height>373</height>
+<sql_create_table>CREATE TABLE `ih_house_info` (
+  `create_time` datetime DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `area_id` int(11) NOT NULL,
+  `title` varchar(64) NOT NULL,
+  `price` int(11) DEFAULT NULL,
+  `address` varchar(512) DEFAULT NULL,
+  `room_count` int(11) DEFAULT NULL,
+  `acreage` int(11) DEFAULT NULL,
+  `unit` varchar(32) DEFAULT NULL,
+  `capacity` int(11) DEFAULT NULL,
+  `beds` varchar(64) DEFAULT NULL,
+  `deposit` int(11) DEFAULT NULL,
+  `min_days` int(11) DEFAULT NULL,
+  `max_days` int(11) DEFAULT NULL,
+  `order_count` int(11) DEFAULT NULL,
+  `index_image_url` varchar(256) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `area_id` (`area_id`),
+  KEY `user_id` (`user_id`),
+  CONSTRAINT `ih_house_info_ibfk_1` FOREIGN KEY (`area_id`) REFERENCES `ih_area_info` (`id`),
+  CONSTRAINT `ih_house_info_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `ih_user_profile` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci</sql_create_table>
+</table>
+<table name="ih_order_info" view="colnames">
+<left>40</left>
+<top>266</top>
+<width>133</width>
+<height>288</height>
+<sql_create_table>CREATE TABLE `ih_order_info` (
+  `create_time` datetime DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `house_id` int(11) NOT NULL,
+  `begin_date` datetime NOT NULL,
+  `end_date` datetime NOT NULL,
+  `days` int(11) NOT NULL,
+  `house_price` int(11) NOT NULL,
+  `amount` int(11) NOT NULL,
+  `status` enum('WAIT_ACCEPT','WAIT_PAYMENT','PAID','WAIT_COMMENT','COMPLETE','CANCELED','REJECTED') DEFAULT NULL,
+  `comment` text,
+  `trade_no` varchar(128) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `house_id` (`house_id`),
+  KEY `user_id` (`user_id`),
+  KEY `ix_ih_order_info_status` (`status`),
+  CONSTRAINT `ih_order_info_ibfk_1` FOREIGN KEY (`house_id`) REFERENCES `ih_house_info` (`id`),
+  CONSTRAINT `ih_order_info_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `ih_user_profile` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci</sql_create_table>
+</table>
+<table name="ih_user_profile" view="colnames">
+<left>622</left>
+<top>323</top>
+<width>136</width>
+<height>218</height>
+<sql_create_table>CREATE TABLE `ih_user_profile` (
+  `create_time` datetime DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(32) NOT NULL,
+  `password` varchar(128) NOT NULL,
+  `phone_num` varchar(11) NOT NULL,
+  `real_name` varchar(32) DEFAULT NULL,
+  `id_card` varchar(20) DEFAULT NULL,
+  `avatar_url` varchar(128) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `name` (`name`),
+  UNIQUE KEY `phone_num` (`phone_num`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci</sql_create_table>
+</table>
+</tables>
+</canvas>
+</schemadesigner>

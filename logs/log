@@ -4968,3 +4968,463 @@ INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 22:06:02] "GET /static/js/ihome
 INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 22:06:04] "GET /api/v1.0/sessions HTTP/1.1" 200 -
 INFO houses.py:325 hit house info redis
 INFO _internal.py:122 127.0.0.1 - - [03/Sep/2019 22:06:06] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/toohoo/PycharmProjects/myiHome/myihome/api_1_0/passport.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 233-698-421
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:28] "GET / HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:29] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:29] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:29] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:29] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:29] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:29] "GET /static/css/ihome/index.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:29] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:29] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:29] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:30] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:30] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:30] "GET /static/js/template.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:30] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:30] "GET /static/js/ihome/index.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:30] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:32] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:49] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:49] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:54] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:16:54] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:05] "GET /my.html HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:05] "GET /static/css/ihome/my.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:05] "GET /static/js/ihome/my.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:06] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:12] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:12] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:12] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:12] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:31] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:37] "GET /orders.html?role=own HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:37] "GET /static/css/ihome/orders.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:37] "GET /static/js/ihome/orders.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:37] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:40] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:43] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:43] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:43] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:43] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:44] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:46] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:46] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:47] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:47] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:47] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:51] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:51] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:51] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:18:52] "GET /api/v1.0/image_codes/2cf38039-5088-4ca2-b266-3f443bba1183 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:21:04] "GET /api/v1.0/image_codes/80da57c8-3042-4b91-9ecb-ac248b3f2a20 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:21:59] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:21:59] "GET /api/v1.0/image_codes/9f1f2851-70c3-46bf-8eef-53c511995506 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:21:59] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:22:13] "GET /api/v1.0/image_codes/34b81af1-ee28-4e36-945e-910fb9e2bebe HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:22:31] "GET /api/v1.0/sms_codes/13411111115?image_code_id=34b81af1-ee28-4e36-945e-910fb9e2bebe&image_code=qxrq HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:24:46] "POST /api/v1.0/users HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:25:59] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:25:59] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:25:59] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:25:59] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:26:20] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:26:20] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:26:23] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:26:23] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:26:23] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:26:23] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:26:24] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:26:25] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:26:25] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:26:25] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:27:08] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:27:08] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:27:08] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:27:08] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:27:09] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:32:20] "GET /search.html?aid=1&aname=东城区&sd=2019-09-04&ed=2019-09-05 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:32:20] "GET /static/css/ihome/search.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:32:20] "GET /static/js/ihome/search.js HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:32:21] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:32:22] "GET /api/v1.0/houses/search?aid=1&sd=2019-09-04&ed=2019-09-05&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:32:45] "GET /api/v1.0/houses/search?aid=2&sd=2019-09-04&ed=2019-09-05&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:03] "GET /api/v1.0/houses/search?aid=2&sd=2019-09-04&ed=2019-09-05&sk=booking&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:08] "GET /api/v1.0/houses/search?aid=2&sd=2019-09-04&ed=2019-09-05&sk=price-inc&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:13] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:13] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:13] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:28] "GET /search.html?aid=&aname=&sd=&ed= HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:28] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:29] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:33] "GET /api/v1.0/houses/search?aid=1&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:35] "GET /detail.html?id=1 HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:35] "GET /static/js/ihome/detail.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:35] "GET /static/css/ihome/detail.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:36] "GET /api/v1.0/houses/detail/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:36] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:36] "GET /static/images/houseicon_sprite.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:53] "GET /api/v1.0/houses/search?aid=&sd=2019-09-04&ed=2019-09-04&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:54] "GET /api/v1.0/houses/search?aid=&sd=2019-09-04&ed=2019-09-04&sk=new&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:33:56] "GET /api/v1.0/houses/search?aid=&sd=2019-09-04&ed=2019-09-04&sk=new&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:34:03] "GET /api/v1.0/houses/search?aid=1&sd=2019-09-04&ed=2019-09-04&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:34:52] "GET /api/v1.0/houses/search?aid=1&sd=2019-09-04&ed=2019-09-05&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:35:24] "GET /api/v1.0/houses/search?aid=2&sd=2019-09-04&ed=2019-09-05&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:36:43] "GET /detail.html?id=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:36:43] "GET /api/v1.0/houses/detail/3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:36:43] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:38:46] "GET /booking.html?hid=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:38:47] "GET /static/css/ihome/booking.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:38:47] "GET /static/images/home01.jpg HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:38:47] "GET /static/js/ihome/booking.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:38:47] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:38:47] "GET /api/v1.0/houses/detail/3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:41:30] "POST /api/v1.0/orders HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:41:31] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:42:03] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:42:06] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:31] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:32] "GET /lorders.html?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:33] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:33] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:35] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:36] "GET /myhouse.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:36] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:36] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:36] "GET /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:36] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:44:41] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:04] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:04] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:04] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:04] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:06] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:07] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:07] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:08] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:08] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:08] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:19] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:19] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:19] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:19] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:19] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:21] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:45:23] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:47:04] "PUT /api/v1.0/orders/5/status HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:05] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:07] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:07] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:07] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:07] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:10] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:12] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:12] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:12] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:12] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:12] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:23] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:24] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:24] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:24] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:24] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:27] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:48:31] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:49:19] "POST /api/v1.0/orders/5/payment HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:56:26] "GET /payComplete.html?charset=utf-8&out_trade_no=5&method=alipay.trade.wap.pay.return&total_amount=1500.00&sign=GLWCTqXUP1Uycy5jb5URK0RWTH1BZhH%2BDEYh7cN%2BJgbFfGHrrH1Bp98LKxZKOLOYVfUOPY7tajaW%2B5DreigxPWY4ZY1vPySqiRMLf5lUtDCkjBS0c0cultiZRiBchiCsgzb%2BUrCAlf6BJGu5oLQmaDV5ZVp3ULCK6HQhy9Xr7ghnUjkvq%2FsJc%2BzU5iTQZOGTS4sBWTuSRtG4m%2Blisjf0NSmk1F%2BoJJYc5AqEC%2Fem4qhWXfrGdIbHaeLJMKQoF4o7V6ff1LxUOZ0tGz1UHSqPgA3loGaUNgopLt2GkK4kBJTO5IugthSO5MJ4WGw%2FJrLABk5fitejaFJAkT6oGvcR%2BQ%3D%3D&trade_no=2019090422001403331000089570&auth_app_id=2016101300679257&version=1.0&app_id=2016101300679257&sign_type=RSA2&seller_id=2088102179436454&timestamp=2019-09-04+16%3A55%3A54 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:56:27] "PUT /api/v1.0/order/payment HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:57:06] "GET /orders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:57:06] "GET /api/v1.0/user/orders?role=undefined HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:00] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:02] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:02] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:02] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:02] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:02] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:13] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:14] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:14] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:14] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:17] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:58:22] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:13] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:15] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:15] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:15] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:15] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:15] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:30] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:30] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:30] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:30] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:30] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:32] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 16:59:33] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:00:25] "PUT /api/v1.0/orders/5/comment HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:01:02] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:01:04] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:01:04] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:01:04] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:01:04] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:01:10] "GET /api/v1.0/houses/detail/3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:01:10] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:00] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:01] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:02] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:03] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:03] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:03] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:03] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:15] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:15] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:15] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:15] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:16] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:19] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:02:21] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:12] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:14] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:14] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:14] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:14] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:26] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:26] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:26] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:26] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:26] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:03:28] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:04:19] "GET /profile.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:04:19] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:04:19] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:04:19] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:04:19] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+DEBUG connectionpool.py:815 Starting new HTTPS connection (1): uc.qbox.me:443
+DEBUG connectionpool.py:396 https://uc.qbox.me:443 "GET /v1/query?ak=4oZD8tEEqq_AEaPD4BopeyM2CJu9lcVFJax-Ns2J&bucket=myihome HTTP/1.1" 200 238
+DEBUG retry.py:211 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:206 Starting new HTTP connection (1): up.qiniu.com:80
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:04:52] "POST /api/v1.0/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:06:04] "PUT /api/v1.0/users HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:06:57] "GET /api/v1.0/users HTTP/1.1" 308 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:06:57] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:07:02] "GET /auth.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:07:02] "GET /static/js/ihome/auth.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:07:02] "GET /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:07:03] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:07:06] "GET /api/v1.0/user/orders?role=own HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:07:08] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:07:10] "GET /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:07:10] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:07:13] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:08:11] "GET /api/v1.0/user/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:08:12] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:08:16] "GET /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:08:16] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:09:02] "GET /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:10:18] "POST /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:10:52] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:11:03] "GET /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:11:03] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:11:17] "GET /newhouse.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:11:17] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:11:17] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:11:17] "GET /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:11:17] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:16:34] "POST /api/v1.0/houses/info HTTP/1.1" 200 -
+DEBUG connectionpool.py:241 Resetting dropped connection: up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:17:34] "POST /api/v1.0/houses/image HTTP/1.1" 200 -
+DEBUG connectionpool.py:241 Resetting dropped connection: up.qiniu.com
+DEBUG connectionpool.py:396 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:19:10] "POST /api/v1.0/houses/image HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:20:22] "GET /api/v1.0/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:20:22] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:21:55] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:21:56] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:21:56] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:21:56] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:21:57] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:00] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:00] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:07] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:12] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:13] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:19] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:22] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:23] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:24] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:31] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:31] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:31] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:31] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:33] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:35] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:35] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:35] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:35] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:35] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:51] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:51] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:51] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:51] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:51] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:55] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:55] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:57] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:58] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:22:59] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:23:12] "GET /api/v1.0/houses/search?aid=1&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:23:28] "GET /api/v1.0/houses/search?aid=1&sd=2019-09-04&ed=2019-09-04&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:23:41] "GET /api/v1.0/houses/search?aid=1&sd=2019-09-04&ed=2019-09-04&sk=booking&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:23:52] "GET /api/v1.0/houses/search?aid=1&sd=2019-09-04&ed=2019-09-05&sk=booking&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:24:57] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:24:57] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:24:57] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:24:57] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:24:58] "GET /api/v1.0/users/ HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:24:59] "DELETE /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:24:59] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:24:59] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:24:59] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:00] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:14] "POST /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:14] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:14] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:14] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:20] "GET /search.html?aid=1&aname=东城区&sd=&ed= HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:20] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:20] "GET /api/v1.0/houses/search?aid=1&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:29] "GET /api/v1.0/houses/search?aid=1&sd=2019-09-04&ed=2019-09-04&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:34] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:34] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:34] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:34] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:37] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:37] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:38] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:39] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:45] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=new&p=4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:55] "GET /api/v1.0/houses/search?aid=&sd=2019-09-04&ed=2019-09-04&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:56] "GET /api/v1.0/houses/search?aid=&sd=2019-09-04&ed=2019-09-04&sk=new&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:25:58] "GET /api/v1.0/houses/search?aid=&sd=2019-09-04&ed=2019-09-04&sk=new&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:26:11] "GET /api/v1.0/houses/search?aid=1&sd=2019-09-04&ed=2019-09-04&sk=new&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:26:18] "GET /detail.html?id=7 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:26:18] "GET /api/v1.0/houses/detail/7 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:26:18] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:26:32] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=booking&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:26:36] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=booking&p=2 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:26:39] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=booking&p=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:26:40] "GET /api/v1.0/houses/search?aid=&sd=&ed=&sk=booking&p=4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:27:41] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:274 hit house index info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:27:41] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO houses.py:28 hit redis area_info
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:27:41] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 17:27:41] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:22:48] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:22:56] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:22:56] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:22:57] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:07] "GET /api/v1.0/houses/detail/3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:07] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /booking.html?hid=3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/css/ihome/booking.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/js/ihome/booking.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:17] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:18] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:18] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:19] "GET /api/v1.0/sessions HTTP/1.1" 200 -
+INFO houses.py:325 hit house info redis
+INFO _internal.py:122 127.0.0.1 - - [04/Sep/2019 19:23:19] "GET /api/v1.0/houses/detail/3 HTTP/1.1" 200 -
